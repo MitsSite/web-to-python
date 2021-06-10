@@ -9,7 +9,7 @@ import pickle
 import numpy as np
 
 app = Flask(__name__)
-model = pickle.load(open('Done_knn.pkl','rb'))
+model = pickle.load(open('Done_Knn.pkl','rb'))
 sc = pickle.load(open('knn_scaler.pkl','rb'))
 
 @app.route('/')
