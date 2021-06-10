@@ -1,1 +1,1 @@
-web: gunicorn app.Diab_Flask:app
+web: gunicorn Diab_Flask:app
