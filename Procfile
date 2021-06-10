@@ -1,1 +1,1 @@
-web: gunicorn app:Diab_Flask
+web: gunicorn -b :$PORT app:Diab_Flask
